@@ -14,7 +14,4 @@ create table usuario(
   CONSTRAINT usuario_pkey PRIMARY KEY (id)
 );
 
---// senha banco cantina digital
--- senha:C6K3TEYJDKUIbYle
-
 

@@ -159,7 +159,24 @@ function logout () {
   sessionStorage.clear()
 }
 
+async function TESTE_APAGAR () {
+  const nome = "admin";
+
+  // SETA O TOKEN
+  sessionStorage.setItem('token_logado', '54a80097f23822cb26b6d5a980968601')
+
+  // SETA O USUARIO LOGADO
+  sessionStorage.setItem('usuario_logado', nome)
+
+  // REDIRECIONA PARA A HOME
+  window.location.href = 'index.html'
+}
+
+
 async function login () {
+  return TESTE_APAGAR();
+
+
   const email = document.querySelector('#login-email').value
   const senha = document.querySelector('#login-senha').value
 

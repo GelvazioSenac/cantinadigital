@@ -2,10 +2,10 @@ var client = false
 var SUPABASE_INSTANCE = callInstanceSupabase()
 
 function getUrlApiSupabase () {
-  return 'https://cekfkywualwubzfyajfk.supabase.co'
+  return 'https://pwtiifufusfauvabgczg.supabase.co'
 }
 function getTokenSupabase () {
-  return 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNla2ZreXd1YWx3dWJ6ZnlhamZrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzI2NTU3NjUsImV4cCI6MjA0ODIzMTc2NX0.FGz57al66xi6Xy8Eg5jRv9EWBgFO7Qhzzv8XD5D8Vg4'
+  return 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB3dGlpZnVmdXNmYXV2YWJnY3pnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjkxMTYzNTMsImV4cCI6MjA0NDY5MjM1M30.9ezZ6cRMDJAaphZt_2R8Xi33AExLxXQAFmGYs6xqPME'
 }
 
 function callInstanceSupabase () {
